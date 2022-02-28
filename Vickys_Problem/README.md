@@ -2,7 +2,7 @@ Vicky's Problem
 -----------------
 A frog called Vicky can jump then rests.
 
-Jumps 5m, rests for 3s
+Jumps 5m, rests for 1s
 
 Jumps 3m, rests for 2s
 

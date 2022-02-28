@@ -10,7 +10,7 @@ public class VickysProblem{
 		
 		while(distance > 0){
 			distance -= 5;
-			timeTaken += 3;
+			timeTaken += 1;
 			if (distance <=0)
 				break;
 

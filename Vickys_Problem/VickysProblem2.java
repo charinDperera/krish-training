@@ -11,7 +11,7 @@ public class VickysProblem2{
 		while(distance > 0){
 			if (distance >= 5){
 				distance -= 5;
-				timeTaken += 3;
+				timeTaken += 1;
 			}
 
 			if (distance >= 3){
