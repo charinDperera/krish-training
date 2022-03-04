@@ -22,9 +22,5 @@ Write a java program which will get the user to input distance to travel,
 calculate and output how long it will take. Assume jump doesn't take time.
 
 ------------------------------------------------------------------------------
-Solutions to Vicky the Frog Problem.
 
-VickyProblem.java  -> If the jump process needs to follow the order.
-
-VickyProblem2.java -> If the jump process does not need to follow the order.
 
