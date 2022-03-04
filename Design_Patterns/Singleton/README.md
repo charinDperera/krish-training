@@ -1,0 +1,1 @@
+"An example of how Singleton Design pattern can be used."
