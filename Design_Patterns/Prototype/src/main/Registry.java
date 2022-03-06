@@ -39,3 +39,4 @@ public class Registry {
 		return game;
 	}
 }
+
