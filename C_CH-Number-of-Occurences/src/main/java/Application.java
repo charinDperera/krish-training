@@ -71,7 +71,7 @@ public class Application {
 		// check for non-English letters
 		for(int i = 0; i < input.length(); i ++) {
 			int x = input.charAt(i);
-			if ( !( ( (x > 65 ) && (x < 92) ) || ( (x > 97) && (x < 124) ) ) ) {
+			if ( !( ( (x >= 65 ) && (x <= 92) ) || ( (x >= 97) && (x <= 124) ) ) ) {
 				System.out.println("Only enter a word using the Enlgish Alphabet (No numbers or special characters)");
 				return false;
 			}
