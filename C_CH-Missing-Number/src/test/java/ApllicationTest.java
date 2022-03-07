@@ -5,8 +5,12 @@ import org.junit.Test;
 public class ApllicationTest {
 
 	@Test
-	public void testMain() {
-		fail("Not yet implemented");
+	public void test() {
+		assertFalse(Application.validation("1"));
+		assertFalse(Application.validation("s,s,d,c,s"));
+		assertFalse(Application.validation("1,2,3 5,6"));
+		assertFalse(Application.validation("-1,1,2,3,5"));
+		assertTrue("Successful Case",Application.validation("24,25,26,28,29"));
 	}
 
 }

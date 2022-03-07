@@ -86,7 +86,7 @@ public class Application {
 	// -----------------------------------------------------------------------------------
 	// 								Begin of Validation
 	// -----------------------------------------------------------------------------------
-	private static boolean validation(String input) {
+	public static boolean validation(String input) {
 
 		String currentElement = "";
 		int index = 0;
@@ -105,10 +105,6 @@ public class Application {
 			count ++;
 			// double checking for validation
 			if (index < input.length()) {
-				if(input.charAt(index) == ' ') {
-					System.out.println("Please do no use whitespaces");
-					return false;
-				}
 				
 				try {
 					int temp = Integer.valueOf(currentElement);
