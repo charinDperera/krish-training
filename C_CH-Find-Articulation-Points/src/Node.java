@@ -3,17 +3,20 @@ import java.util.List;
 
 public class Node {
 	char value;
-	List<Node> connections;
+	Node left;
+	Node right;
+	Node previous;
+	Node backEdge;
 	boolean visited;
 	int lowestIndex;
 	int depthIndex;
-	
+
 	public Node(char value) {
 		this.value = value;
-		connections = new ArrayList<>();
-	}
-	
-	public void addConnection(Node node) {
-		connections.add(node);
+		left = null;
+		right = null;
+		previous = null;
+		backEdge = null;
+		visited = false;
 	}
 }
