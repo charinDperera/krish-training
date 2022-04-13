@@ -31,6 +31,7 @@ public class Application {
 		
 		current.visited = true;
 		if ((current.left == null) && (current.right == null)) {
+//			reverse(stack);
 			stack.pop();
 		}
 
@@ -43,5 +44,20 @@ public class Application {
 			traverse(stack);
 		}
 	}
+
+//	public static void reverse(Stack<Node> stack) {
+//		Node current = stack.pop();
+//		if (current == null)
+//			return;
+//
+//		if ((current.right != null) && (!current.right.visited))
+//			traverse(stack);
+//
+//		if ((current.left != null) && (!current.left.visited))
+//			traverse(stack);
+//
+//		reverse(stack);
+//
+//	}
 
 }
