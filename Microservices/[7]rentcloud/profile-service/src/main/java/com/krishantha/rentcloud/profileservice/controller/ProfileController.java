@@ -32,6 +32,6 @@ public class ProfileController {
 	@RequestMapping(value = "/profile", method = RequestMethod.GET)
 	public List<Customer> fetchData(){
 		return customerService.fetchAllProfileData();
-	}
+	} 
 		
 }
