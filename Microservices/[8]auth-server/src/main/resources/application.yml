@@ -1,0 +1,17 @@
+server:
+  port: 8282
+  
+spring:
+  security:
+    user:
+      name: charin
+      password: charin123
+      roles:
+      - ADMIN
+      - USER
+    oauth2:
+      resourceserver:
+        opaquetoken:
+          client-id: mobile
+          client-secret: pin
+      
