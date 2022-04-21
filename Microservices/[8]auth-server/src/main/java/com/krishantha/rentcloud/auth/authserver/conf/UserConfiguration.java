@@ -17,6 +17,5 @@ public class UserConfiguration extends GlobalAuthenticationConfigurerAdapter{
 									.withUser("gaveen").password(passwordEncoder.encode("gaveenpass") ).roles("USER").authorities("CAN_READ", "CAN_WRITE");
 	}
 	
-	
 
 }
