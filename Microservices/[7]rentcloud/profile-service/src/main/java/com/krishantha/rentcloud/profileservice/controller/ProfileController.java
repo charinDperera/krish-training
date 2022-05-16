@@ -29,7 +29,7 @@ public class ProfileController {
 		return customerService.fetchById(profileId);
 	}
 	
-	@RequestMapping(value = "/profile", method = RequestMethod.GET)
+	@RequestMapping(value = "/profiles", method = RequestMethod.GET)
 	public List<Customer> fetchData(){
 		return customerService.fetchAllProfileData();
 	} 

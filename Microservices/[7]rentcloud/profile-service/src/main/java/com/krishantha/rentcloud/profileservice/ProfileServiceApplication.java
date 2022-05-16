@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 
 @SpringBootApplication
-@EntityScan(basePackages = "package com.krishantha.rentcloud.commons.model")
+@EntityScan(basePackages = "com.krishantha.rentcloud.commons.model")
 public class ProfileServiceApplication {
 
 	public static void main(String[] args) {
